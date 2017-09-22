@@ -12,6 +12,7 @@
 		F31B2BC91F74A7D100981A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31B2BC71F74A7D100981A89 /* Main.storyboard */; };
 		F31B2BCB1F74A7D100981A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31B2BCA1F74A7D100981A89 /* Assets.xcassets */; };
 		F31B2BCE1F74A7D100981A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31B2BCC1F74A7D100981A89 /* LaunchScreen.storyboard */; };
+		F31B2BD61F75038100981A89 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31B2BD51F75038100981A89 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F31B2BCA1F74A7D100981A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F31B2BCD1F74A7D100981A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F31B2BCF1F74A7D100981A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31B2BD51F75038100981A89 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F31B2BCA1F74A7D100981A89 /* Assets.xcassets */,
 				F31B2BCC1F74A7D100981A89 /* LaunchScreen.storyboard */,
 				F31B2BCF1F74A7D100981A89 /* Info.plist */,
+				F31B2BD51F75038100981A89 /* CustomCollectionViewCell.swift */,
 			);
 			path = "truc-xanh-collectionview";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F31B2BC61F74A7D100981A89 /* ViewController.swift in Sources */,
+				F31B2BD61F75038100981A89 /* CustomCollectionViewCell.swift in Sources */,
 				F31B2BC41F74A7D100981A89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +267,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H3V77BQYC2;
 				INFOPLIST_FILE = "truc-xanh-collectionview/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shtptraining.truc-xanh-collectionview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H3V77BQYC2;
 				INFOPLIST_FILE = "truc-xanh-collectionview/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shtptraining.truc-xanh-collectionview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
